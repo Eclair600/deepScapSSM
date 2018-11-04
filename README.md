@@ -1,5 +1,13 @@
-# minimal-scalismo-seed
-A minimal seed template for a [Scalismo](https://github.com/unibas-gravis/scalismo) build.
+# Deep Scap SSM
+A minimal seed template for a [Scalismo](https://github.com/unibas-gravis/scalismo) build able to sample using different probability distributions scapulae bones.
+
+It can also measure the different features of the scapulae automatically (critical shoulder angle, tilt, version, acromion angle curvature of the glene with sphere fitting).
+
+This template uses scalismo a scala framework for statistical shape modelling built by the GRAVIS department of the University of Basel.
+
+Some deep learning and linear regression results can be found on the following Kaggle Kernel :
+
+https://www.kaggle.com/iham97/deepscapulassm
 
 Once you have [sbt](http://www.scala-sbt.org/release/tutorial/Setup.html) installed, you can clone this project to build an application making use of Scalismo. A very simple example application is shown in [ExampleApp.scala](https://github.com/unibas-gravis/activator-scalismo-seed/blob/master/src/main/scala/com/example/ExampleApp.scala).
 
